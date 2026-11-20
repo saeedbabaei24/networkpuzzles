@@ -4,7 +4,7 @@ name: Sync WordPress Blog
 on:
   workflow_dispatch:
   schedule:
-    - cron: "7,37 * * * *"
+    - cron: "0 11 * * *"
 
 permissions:
   contents: write
