@@ -34,8 +34,8 @@ jobs:
 
       - name: Commit and push changes
         run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config user.name "saeedbabaei24"
+          git config user.email "39956328+saeedbabaei24@users.noreply.github.com"
           git add blog/
           if ! git diff --cached --quiet; then
             git commit -m "Sync WordPress blog posts"
