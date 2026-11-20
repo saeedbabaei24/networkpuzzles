@@ -63,6 +63,6 @@ It’s easy to think of BGP security as a single feature or protocol, but the re
 
 One thing that also stood out to me is that many of the largest BGP incidents weren’t the result of sophisticated attacks. They started with something much simpler: a missing filter, an incorrect routing policy, or a route advertised to the wrong neighbor. In other words, many incidents were entirely preventable.
 
-That was probably the biggest lesson I took away from the RIPE NCC Academy. BGP itself isn’t “insecure” because it’s broken—it simply reflects the trust-based Internet it was originally designed for. As network engineers, it’s our responsibility to add the validation, filtering, and operational controls that today’s Internet requires.
+That was probably the biggest lesson I took away from the RIPE NCC Academy. BGP itself isn’t “insecure” because it’s broken. It simply reflects the trust-based Internet it was originally designed for. As network engineers, it’s our responsibility to add the validation, filtering, and operational controls that today’s Internet requires.
 
 Overall, I found the course to be a practical introduction to BGP security. It focuses on real operational challenges rather than theory alone, and the examples make it easy to understand why routing security matters. Whether you’re working for an ISP, a cloud provider, or an enterprise network, the concepts covered in the course are directly applicable to real-world environments.
