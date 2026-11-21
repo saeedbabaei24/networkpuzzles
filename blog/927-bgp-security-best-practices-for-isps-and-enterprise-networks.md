@@ -9,7 +9,7 @@ One of the biggest takeaways from the RIPE NCC course is that **there is no sing
 
 Even though technologies like RPKI have significantly improved routing security, they don’t solve every problem. RPKI only validates the **origin** of a route. It doesn’t verify whether the advertised AS Path is correct, nor can it prevent every type of route leak.
 
-For example, imagine an ISP receives a perfectly valid route from one upstream provider. If that ISP accidentally advertises the same route to another provider when it shouldn’t, the route is still **RPKI Valid**. The problem isn’t who originated the prefix, it’s that the routing policy was incorrect.
+For example, imagine an ISP receives a perfectly valid route from one upstream provider. If that ISP accidentally advertises the same route to another provider when it shouldn’t, the route is still **RPKI Valid**. The problem isn’t who originated the prefix—it’s that the routing policy was incorrect.
 
 That’s why route leaks continue to happen even as RPKI adoption increases across the Internet.
 
