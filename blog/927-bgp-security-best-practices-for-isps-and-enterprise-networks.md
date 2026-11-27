@@ -9,7 +9,7 @@ One of the biggest takeaways from the RIPE NCC course is that **there is no sing
 
 Even though technologies like RPKI have significantly improved routing security, they don’t solve every problem. RPKI only validates the **origin** of a route. It doesn’t verify whether the advertised AS Path is correct, nor can it prevent every type of route leak.
 
-For example, imagine an ISP receives a perfectly valid route from one upstream provider. If that ISP accidentally advertises the same route to another provider when it shouldn’t, the route is still **RPKI Valid**. The problem isn’t who originated the prefix, it’s that the routing policy was incorrect.
+For example, imagine an ISP receives a perfectly valid route from one upstream provider. If that ISP accidentally advertises the same route to another provider when it shouldn’t, the route is still **RPKI Valid**. The problem isn’t who originated the prefix—it’s that the routing policy was incorrect.
 
 That’s why route leaks continue to happen even as RPKI adoption increases across the Internet.
 
@@ -63,6 +63,6 @@ It’s easy to think of BGP security as a single feature or protocol, but the re
 
 One thing that also stood out to me is that many of the largest BGP incidents weren’t the result of sophisticated attacks. They started with something much simpler: a missing filter, an incorrect routing policy, or a route advertised to the wrong neighbor. In other words, many incidents were entirely preventable.
 
-That was probably the biggest lesson I took away from the RIPE NCC Academy. BGP itself isn’t “insecure” because it’s broken. It simply reflects the trust-based Internet it was originally designed for. As network engineers, it’s our responsibility to add the validation, filtering, and operational controls that today’s Internet requires.
+That was probably the biggest lesson I took away from the RIPE NCC Academy. BGP itself isn’t “insecure” because it’s broken—it simply reflects the trust-based Internet it was originally designed for. As network engineers, it’s our responsibility to add the validation, filtering, and operational controls that today’s Internet requires.
 
 Overall, I found the course to be a practical introduction to BGP security. It focuses on real operational challenges rather than theory alone, and the examples make it easy to understand why routing security matters. Whether you’re working for an ISP, a cloud provider, or an enterprise network, the concepts covered in the course are directly applicable to real-world environments.
